@@ -1,0 +1,89 @@
+1,Run a script and demonstrate adding 2 integers and convert them to hexadecimal?
+
+pS C:\WINDOWS\system32> $x=90
+PS C:\WINDOWS\system32> $y=45
+PS C:\WINDOWS\system32> $x+$y
+135 //output
+
+
+PS C:\WINDOWS\system32> 0x45
+69  //output
+PS C:\WINDOWS\system32> 0xee23
+60963 //output
+PS C:\WINDOWS\system32> 0xf1
+241 //output
+
+2,Run a script and demonstrate if and elseif condition?
+
+PS C:\WINDOWS\system32> if($a_place -eq $b_place) {"Both are same places"} elseif($b_place -eq $c_place) {"Both b and c are same places"} 
+else {"all are different places"}
+
+all are different places  //output
+
+Condition in the if() is true then that if block is executed otherwise elseif condition is true then its statements are executed otherwise 
+else block statements are executed.
+
+3,Run a script and document in notepad about commands like Get_command,Get-Update,Get-Unique,Get_date,Write_Host,Get_Process and Get_Alias?
+
+Get_Command:-It wil show all the commands.
+Get_update:-It is used for checkng updates.
+Get_Unique:-It returns unique objects or unique strings.
+Get_Date:-It displays the current date and time.
+Get_Process:- It shows the process running on the system.
+Get_Alias:-It will display all the alias names.
+Write_Host:-It will display content written next to it.
+
+1,Work on different variables?
+
+a=b=c=d=243
+Print(a,b,c,d)
+o/p:-243 243 243 243
+
+a="sample"
+print(a)
+o/p:-sample
+
+c=123.45
+print(type(c))
+o/p:-< class 'float'> 
+
+2,Work on string concatenation?
+
+a="The training"
+b=" is good"
+o/p:=the training is good
+
+3,Write a program of simple calculator using dynamic input?
+
+a=input("enter a number:")
+b=input("enter another number:")
+print(a+b)
+print{a-b)
+print(a*b)
+print(a/b)
+
+4,Available datatypes in python?
+
+Integer
+Float
+Boolean
+String
+Complex
+
+5, Functions in python?
+
+There are some predefined methods and some userdefined methods.
+
+predefined methods like sorting functions,searching functions etc.
+userdefined methods:- we can create methods on add logic or subtraction logic or any other logic.
+
+6,String functions in python?
+
+String capatalize()
+String casefold()
+String center()
+String count()
+String endswith()
+String find() 
+string join()
+String lower()
